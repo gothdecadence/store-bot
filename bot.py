@@ -30,11 +30,11 @@ import openpyxl
 from openpyxl.styles import Font, Alignment, PatternFill
 
 # Графики
-import matplotlib
-matplotlib.use('Agg')
-import matplotlib.pyplot as plt
-from matplotlib import rcParams
-import matplotlib.dates as mdates
+# import matplotlib
+# matplotlib.use('Agg')
+# import matplotlib.pyplot as plt
+# from matplotlib import rcParams
+# import matplotlib.dates as mdates
 
 # Прогнозирование
 import numpy as np
