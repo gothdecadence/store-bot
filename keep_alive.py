@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "?? Áîò ðàáîòàåò 24/7!"
+    return "🤖 Бот работает 24/7!"
 
 def ping():
     url = os.environ.get('RENDER_EXTERNAL_URL', 'https://âàø-ñàéò.onrender.com')
