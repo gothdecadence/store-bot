@@ -12,7 +12,7 @@ def home():
     return "🤖 Бот работает 24/7!"
 
 def ping():
-    url = os.environ.get('RENDER_EXTERNAL_URL', 'https://âàø-ñàéò.onrender.com')
+    url = os.environ.get('RENDER_EXTERNAL_URL', 'https://dashboard.render.com/web/srv-d9kh4q5bedkc73do6hdg/deploys/dep-d9kh7a2jobas73bdeacg?m=max')
     while True:
         time.sleep(600)  # êàæäûå 10 ìèíóò
         try:
