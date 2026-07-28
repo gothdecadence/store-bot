@@ -1,3 +1,4 @@
 aiogram==3.2.0
 sqlalchemy==2.0.30
 openpyxl==3.1.2
+flask==2.3.2
