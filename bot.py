@@ -1,5 +1,6 @@
 ﻿# coding: utf-8 в
-
+import keep_alive
+keep_alive.start()
 # bot.py
 import asyncio
 import io
