@@ -1021,5 +1021,11 @@ async def main():
     except Exception as e:
         print(f"Ошибка: {e}")
 
-if __name__ == "__main__":
-    asyncio.run(main())
+async def main():
+    print("🤖 Бот запущен!")
+    print(f"👥 Продавцы: {', '.join(SELLERS)}")
+    print("📅 Напишите /start в Telegram")
+    try:
+        await dp.start_polling(bot, skip_updates=True, handle_signals=False)
+    except Exception as e:
+        print(f"Ошибка: {e}")
