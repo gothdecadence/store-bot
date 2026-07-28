@@ -37,8 +37,8 @@ from openpyxl.styles import Font, Alignment, PatternFill
 # import matplotlib.dates as mdates
 
 # Прогнозирование
-import numpy as np
-from sklearn.linear_model import LinearRegression
+# import numpy as np
+# from sklearn.linear_model import LinearRegression
 
 # Для веб-сервера SQLite
 import sqlite3
