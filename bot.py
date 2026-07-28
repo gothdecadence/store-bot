@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+﻿# coding: utf-8 в
 
 import keep_alive
 keep_alive.start_keep_alive()
