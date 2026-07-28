@@ -1,3 +1,5 @@
+pip==25.0.1
+setuptools==75.8.0
 aiogram==3.2.0
 sqlalchemy==2.0.30
 openpyxl==3.1.2
