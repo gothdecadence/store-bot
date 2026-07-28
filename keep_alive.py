@@ -1,3 +1,4 @@
+# coding: utf-8
 from flask import Flask
 from threading import Thread
 import requests
@@ -8,17 +9,17 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "?? Бот работает 24/7!"
+    return "?? ГЃГ®ГІ Г°Г ГЎГ®ГІГ ГҐГІ 24/7!"
 
 def ping():
-    url = os.environ.get('RENDER_EXTERNAL_URL', 'https://ваш-сайт.onrender.com')
+    url = os.environ.get('RENDER_EXTERNAL_URL', 'https://ГўГ Гё-Г±Г Г©ГІ.onrender.com')
     while True:
-        time.sleep(600)  # каждые 10 минут
+        time.sleep(600)  # ГЄГ Г¦Г¤Г»ГҐ 10 Г¬ГЁГ­ГіГІ
         try:
             requests.get(url)
-            print("? Пинг отправлен")
+            print("? ГЏГЁГ­ГЈ Г®ГІГЇГ°Г ГўГ«ГҐГ­")
         except Exception as e:
-            print(f"? Ошибка пинга: {e}")
+            print(f"? ГЋГёГЁГЎГЄГ  ГЇГЁГ­ГЈГ : {e}")
 
 def start_keep_alive():
     Thread(target=ping, daemon=True).start()
