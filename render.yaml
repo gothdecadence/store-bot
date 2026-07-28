@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: store-bot
+    env: python
+    buildCommand: pip install --upgrade pip setuptools && pip install -r requirements.txt
+    startCommand: python bot.py
+    envVars:
+      - key: BOT_TOKEN
+        value: 8966604433:AAEAxUlW0Nk44mck3uioqWszYQuYzJyyyW0
+      - key: PYTHON_VERSION
+        value: 3.11.0
